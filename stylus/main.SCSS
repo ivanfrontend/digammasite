@@ -856,12 +856,64 @@ margin: 0 auto 17px;
     	.wrapp-img-tektronik{
     		img{
     			width: 170px;
-    			height: 30px;
+    			padding-bottom: 	20px;
+    			border-bottom: 3px solid #216ba2;
+    		}
+    	}
+    	.wrapp-deskripteons-text{
+    		p{
+    			padding-top: 15px;
     		}
     	}
     }
     .cetegori-produkt{
+    	padding: 20px;
     	width: 50%;
+    	background-color: 	#16e84d;
+    	h2{
+    		font-size: 24px;
+    		text-transform: uppercase;
+    		text-align: center;	
+    		margin: 0px;
+    		padding-bottom: 20px;
+    		color: 	#fff;	
+
+    	}
+    	nav{
+
+    		ul{
+    			li{
+    				list-style-type: 	none;
+    				padding: 10px 0px;
+    				position: 	relative;
+    				transition: 1s;	
+    				&:before{
+    					content:"";
+	    				width: 10px;
+		    			height: 10px;
+		    			border: 1px solid;
+		    			border-radius: 50%;
+	    				position: absolute;
+	    				left: -20px;
+	    				top: 16px;	
+	    				transition: 1s;
+    				}
+    				&:hover{
+    					 &:before{
+								background-color: 	#000;
+								transition: 1s;
+    					 }
+    				}
+    				a{
+						font-size: 	16px;
+						font-weight: 700;
+						color: 	#fff;
+						text-decoration: none;
+						text-transform: 	uppercase;	
+    				}
+    			}
+    		}
+    	}
     }
 }
 /*Конец стили страницы все тектроникс*/
