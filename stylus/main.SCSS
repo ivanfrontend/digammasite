@@ -6,7 +6,7 @@ $btnheader: #26738f;
 $bgpodmenu: #141a27;
 $bgbtnprivu: #216ba2;
 $bgbtnprivuhover: #166274;
-$bgsectionpartners: #f8f8f8;
+$bgsectionpartners: #f0f0f0;
 $bgsectionpartnerstitle: #8f8989;
 $bgfooter:#272c31;
 $footer_button_zakaz: #6c393c !important;
@@ -830,7 +830,41 @@ margin: 0 auto 17px;
 
 
 
+/*стили страницы все тектроникс*/
 
+
+.wrapp-vlojenost-tektronix{
+	background-color: $bgsectionpartners;
+}
+.block_for_padding25x150{
+	padding-top: 55px;
+    padding-bottom: 150px;
+}
+
+.wrapp-all-produkt{
+	padding: 60px 0px;
+}
+.wrapp-all-produkt{
+	display: flex;
+    align-items: center;
+    .desckriptions-produkt{
+    	padding: 40px 30px;
+    	width: 51%;
+    	position: relative;
+    	right: -10px;
+    	background: #fff;
+    	.wrapp-img-tektronik{
+    		img{
+    			width: 170px;
+    			height: 30px;
+    		}
+    	}
+    }
+    .cetegori-produkt{
+    	width: 50%;
+    }
+}
+/*Конец стили страницы все тектроникс*/
 
 
 
