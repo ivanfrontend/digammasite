@@ -91,4 +91,7 @@ function image_loaded(){
     }
 }
 
+var heit = jQuery('header').height();
+jQuery('.header-wrapp').css({"height":heit});
+
 // Конец прилоадера

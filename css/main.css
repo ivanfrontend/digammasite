@@ -583,13 +583,11 @@ header {
           width: 100%; }
     .wrapp-partners .wrapp-content-portners .wrapp-bottom-cartochi-portners {
       background-color: #fff;
-      padding: 6% 5% 6% 5%;
-      margin-bottom: 17px;
+      padding: 10% 5% 11% 5%;
       -webkit-border-bottom-right-radius: 40px;
               border-bottom-right-radius: 40px;
       -webkit-border-bottom-left-radius: 40px;
               border-bottom-left-radius: 40px;
-      margin: 0 auto 17px;
       border: 1px solid #eee;
       text-align: center; }
       .wrapp-partners .wrapp-content-portners .wrapp-bottom-cartochi-portners a {
@@ -624,6 +622,9 @@ header {
     font-family: HelveticaNeueCyr5;
     padding-bottom: 35px;
     width: 80%; }
+
+.wrapp-bottom-cartochi-portners {
+  margin: 0 auto 17px; }
 
 .wrapp-watch-all-partners {
   text-align: center; }
@@ -698,6 +699,52 @@ header {
         background-color: #166274; }
 
 /*конец блока новости*/
+/*стили страницы все партнёры*/
+.wrapp-vlojenost {
+  background-color: #e0e0e0; }
+
+.wrapp-menu-vlojenost nav ul {
+  margin: 0px;
+  padding: 30px 15px; }
+  .wrapp-menu-vlojenost nav ul li {
+    font-size: 11px;
+    text-transform: uppercase;
+    display: inline-block; }
+    .wrapp-menu-vlojenost nav ul li a {
+      font-size: 11px;
+      text-transform: uppercase;
+      display: inline-block;
+      color: #bfbfbf;
+      text-decoration: none; }
+      .wrapp-menu-vlojenost nav ul li a span i {
+        font-size: 10px;
+        color: #c4c4c4;
+        padding: 0px 7px; }
+    .wrapp-menu-vlojenost nav ul li:last-child a {
+      border-bottom: 1px solid #00aeef;
+      cursor: default;
+      color: #949494; }
+      .wrapp-menu-vlojenost nav ul li:last-child a span i {
+        display: none; }
+
+.block_for_padding25x60 {
+  padding-top: 25px;
+  padding-bottom: 60px; }
+
+.wrap_main_block .wrapp-bottom-cartochi-portners {
+  margin-bottom: 40px; }
+
+.line {
+  margin: 0 auto;
+  height: 1px;
+  border-top: 1px solid #bababa; }
+
+.line_width80 {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  width: 68%; }
+
+/*Конец стили страницы все партнёры*/
 /*Footer*/
 footer {
   color: #fff;

@@ -617,11 +617,9 @@ header{
 		}
 		.wrapp-bottom-cartochi-portners{
 		background-color: #fff;
-			padding: 6% 5% 6% 5%;
-			margin-bottom: 17px;
+			padding: 10% 5% 11% 5%;
 			border-bottom-right-radius: 40px;
     		border-bottom-left-radius: 40px;
-			margin: 0 auto 17px;
 			border: 1px solid #eee;
 			text-align: center;
 			a{
@@ -660,6 +658,11 @@ header{
     	width: 80%; 
 	}
 }
+
+.wrapp-bottom-cartochi-portners{
+margin: 0 auto 17px;
+}
+
 .wrapp-watch-all-partners{
 	    text-align: center;
 	.watch-all-partners{
@@ -745,6 +748,93 @@ header{
 			}
 }
 /*конец блока новости*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*стили страницы все партнёры*/
+.wrapp-vlojenost{
+	background-color: #e0e0e0;
+}
+.wrapp-menu-vlojenost{
+	nav{
+		ul{
+			margin: 0px;
+			padding: 30px 15px;
+			li{
+				font-size: 11px;
+				text-transform: uppercase;
+				display: inline-block;
+				
+				a{
+					font-size: 11px;
+					text-transform: uppercase;
+					display: inline-block;
+					color: #bfbfbf;
+					text-decoration: none;
+					span{
+						i{
+							font-size: 10px;
+							color: #c4c4c4;
+							padding: 0px 7px;
+						}
+					}
+				}
+				&:last-child{
+					a{	
+						border-bottom: 1px solid #00aeef;
+						cursor: default; 
+						color: #949494;
+						span{
+							i{
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.block_for_padding25x60{
+	padding-top: 25px;
+	padding-bottom: 60px;
+}
+
+.wrap_main_block{
+	.wrapp-bottom-cartochi-portners{
+		margin-bottom: 40px;
+	}
+}
+.line{
+	margin: 0 auto;
+	height: 1px;
+	border-top: 1px solid #bababa;
+}
+.line_width80{
+	padding-top: 10px;
+	padding-bottom: 50px;
+	width: 68%;
+}
+
+/*Конец стили страницы все партнёры*/
+
+
+
+
+
+
+
+
+
 
 
 /*Footer*/
