@@ -117,7 +117,8 @@
   padding-right: 15px; }
 
 body {
-  position: relative; }
+  position: relative;
+  min-width: 380px; }
   body .wrapp-mobail-menu {
     position: absolute;
     padding-top: 42px;
@@ -748,7 +749,45 @@ header {
   width: 68%; }
 
 .My_Block {
-  background-color: white; }
+  background-color: white;
+  padding: 0px 60px;
+  margin-bottom: 70px; }
+  .My_Block .wrapp_button {
+    padding-bottom: 70px;
+    text-align: right; }
+    .My_Block .wrapp_button a {
+      /*background-color: #216ba2;
+			font-size: 27px;
+			text-decoration: none;
+			color: #fff;*/
+      font-size: 17px;
+      color: #fff;
+      font-family: HelveticaNeueCyr8;
+      background-color: #216ba2;
+      text-decoration: none;
+      outline: none;
+      border: 1px solid #fff;
+      -webkit-border-radius: 15px;
+              border-radius: 15px;
+      padding: 16px 20px 16px 35px;
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s; }
+      .My_Block .wrapp_button a img {
+        margin-left: 40px; }
+
+.wrapp_img_end_text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.wrapp_charackteristici {
+  margin: 30px 0px 46px 0px; }
 
 .title_lavel_two {
   text-align: center;
@@ -772,12 +811,10 @@ header {
 
 .title_lavel_three {
   font-weight: 600;
-  margin-bottom: 40px;
-  text-align: right; }
+  margin-bottom: 40px; }
 
 .paragraph_about {
-  font-size: 16px;
-  margin-bottom: 60px; }
+  font-size: 16px; }
 
 .paragraph_range {
   font-size: 16px;

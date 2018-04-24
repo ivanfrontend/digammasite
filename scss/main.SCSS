@@ -145,6 +145,7 @@ span{
 }
 body{
 	position: relative;
+	min-width: 380px;
 	.wrapp-mobail-menu{
 		position: absolute;
 		padding-top: 42px;
@@ -832,7 +833,43 @@ margin: 0 auto 17px;
 
 .My_Block{
 	background-color: white;
+	padding: 0px 60px;
+	margin-bottom: 70px;
+	.wrapp_button{
+		padding-bottom: 70px;
+		text-align: right;
+		a{
+			/*background-color: #216ba2;
+			font-size: 27px;
+			text-decoration: none;
+			color: #fff;*/
+			font-size: 17px;
+    color: #fff;
+    font-family: HelveticaNeueCyr8;
+    background-color: #216ba2;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 16px 20px 16px 35px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    img{
+    	margin-left: 40px;
+    }
+		}
+    }
+	}
+
+.wrapp_img_end_text{
+	display: flex;
+	align-items: center;
 }
+
+.wrapp_charackteristici{
+	margin: 30px 0px 46px 0px;
+	}
 
 .title_lavel_two{
 	text-align: center;
@@ -855,11 +892,9 @@ margin: 0 auto 17px;
 .title_lavel_three{
 	font-weight: 600;
 	margin-bottom: 40px;
-	text-align: right;
 }
 .paragraph_about{
 	font-size: 16px;
-	margin-bottom: 60px;
 }
 
 .paragraph_range{
