@@ -870,6 +870,10 @@ margin: 0 auto 17px;
     	padding: 20px;
     	width: 50%;
     	background-color: 	#16e84d;
+    	.activ_produckt_tektronix:before{
+    		content:"";
+    		background-color: #000;
+    	}
     	h2{
     		font-size: 24px;
     		text-transform: uppercase;

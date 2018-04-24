@@ -781,6 +781,9 @@ header {
     padding: 20px;
     width: 50%;
     background-color: #16e84d; }
+    .wrapp-all-produkt .cetegori-produkt .activ_produckt_tektronix:before {
+      content: "";
+      background-color: #000; }
     .wrapp-all-produkt .cetegori-produkt h2 {
       font-size: 24px;
       text-transform: uppercase;
