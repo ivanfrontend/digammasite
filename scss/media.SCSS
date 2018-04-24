@@ -107,6 +107,17 @@ footer{
 }
 
 @media only (max-width: 650px){
+  .wrapp-all-produkt{
+    flex-direction: column;
+  
+  .desckriptions-produkt{
+    width: 100% !important;
+    right: 0px !important;
+  }
+  .cetegori-produkt{
+    width: 100% !important;
+  }
+}
   .wrapp-click-serch{
     input{
       width: 50%;

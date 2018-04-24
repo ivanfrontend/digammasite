@@ -75,6 +75,17 @@
     transition: .5s; } }
 
 @media (max-width: 650px) {
+  .wrapp-all-produkt {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .wrapp-all-produkt .desckriptions-produkt {
+      width: 100% !important;
+      right: 0px !important; }
+    .wrapp-all-produkt .cetegori-produkt {
+      width: 100% !important; }
   .wrapp-click-serch input {
     width: 50%; }
   .wrapp-click-serch .click-serch button {
