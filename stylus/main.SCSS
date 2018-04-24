@@ -6,7 +6,7 @@ $btnheader: #26738f;
 $bgpodmenu: #141a27;
 $bgbtnprivu: #216ba2;
 $bgbtnprivuhover: #166274;
-$bgsectionpartners: #f8f8f8;
+$bgsectionpartners: #f0f0f0;
 $bgsectionpartnerstitle: #8f8989;
 $bgfooter:#272c31;
 $footer_button_zakaz: #6c393c !important;
@@ -479,6 +479,10 @@ header{
     }
 }
 
+.for_padding33{
+	padding-top: 33px;
+}
+
 .logo-partner{
 	width: 110px;
 	display: inline-block;
@@ -762,7 +766,7 @@ margin: 0 auto 17px;
 
 /*стили страницы все партнёры*/
 .wrapp-vlojenost{
-	background-color: #e0e0e0;
+	background-color: $bgsectionpartners;
 }
 .wrapp-menu-vlojenost{
 	nav{
@@ -824,6 +828,52 @@ margin: 0 auto 17px;
 	padding-bottom: 50px;
 	width: 68%;
 }
+
+
+.My_Block{
+	background-color: white;
+}
+
+.title_lavel_two{
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 40px;
+	margin-top: 30px;
+	font-weight: 550;
+}
+
+.flexbox{
+	display: flex;
+    align-items: center;
+}
+
+
+.margine_for_img{
+	text-align: center;
+}
+
+.title_lavel_three{
+	font-weight: 600;
+	margin-bottom: 40px;
+	text-align: right;
+}
+.paragraph_about{
+	font-size: 16px;
+	margin-bottom: 60px;
+}
+
+.paragraph_range{
+	font-size: 16px;
+	font-weight: 700;
+	color: #060c4a;
+	margin: 0px;
+}
+
+.cnooka{
+	
+}
+
+
 
 /*Конец стили страницы все партнёры*/
 
