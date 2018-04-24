@@ -848,7 +848,7 @@ margin: 0 auto 17px;
 	display: flex;
     align-items: center;
     .desckriptions-produkt{
-    	padding: 40px 30px;
+    	padding: 40px 70px 70px 30px;
     	width: 51%;
     	position: relative;
     	right: -10px;
@@ -857,63 +857,92 @@ margin: 0 auto 17px;
     		img{
     			width: 170px;
     			padding-bottom: 	20px;
-    			border-bottom: 3px solid #216ba2;
+    			border-bottom: 1px solid #1ee1d1;
     		}
     	}
     	.wrapp-deskripteons-text{
     		p{
+    			text-align: justify;
+    			font-size: 12px;
+    			font-family: $HelveticaNeueCyr8;
     			padding-top: 15px;
+    			color: #434242;
     		}
     	}
     }
     .cetegori-produkt{
-    	padding: 20px;
+    	padding: 35px 15px;
     	width: 50%;
-    	background-color: 	#16e84d;
-    	.activ_produckt_tektronix:before{
-    		content:"";
-    		background-color: #000;
+    	background-image: url(../img/fon_desk_menu.png);
+    	background-repeat: no-repeat;
+    	background-position: center center;
+    	background-size: cover;
+    	text-align: center;
+    	.activ_produckt_tektronix{
+    		a{
+    			color: #093b73;
+    			&:before{
+    				content:"";
+    				border: 1px solid #fff;
+    				background-color: #093b73;
+    			}
+    		}
+    		
     	}
     	h2{
-    		font-size: 24px;
-    		text-transform: uppercase;
+    		display: inline-block;
+    		font-size: 20px;
+    		font-family: $HelveticaNeueCyr8;
     		text-align: center;	
-    		margin: 0px;
+    		margin-bottom: 25px;
     		padding-bottom: 20px;
+    		border-bottom: 1px solid #e3e2e1;
     		color: 	#fff;	
 
     	}
     	nav{
 
     		ul{
+    			padding: 0px;
+    			text-align: left;
     			li{
     				list-style-type: 	none;
     				padding: 10px 0px;
     				position: 	relative;
     				transition: 1s;	
-    				&:before{
-    					content:"";
-	    				width: 10px;
-		    			height: 10px;
-		    			border: 1px solid;
-		    			border-radius: 50%;
-	    				position: absolute;
-	    				left: -20px;
-	    				top: 16px;	
-	    				transition: 1s;
-    				}
-    				&:hover{
-    					 &:before{
-								background-color: 	#000;
-								transition: 1s;
-    					 }
+    				font-size: 19px;
+    				span{
+    					width: 10px;
+    					height: 10px;
+    					position: relative;
+    					border-radius: 50%;
+    					border: 1px solid #fff;
     				}
     				a{
 						font-size: 	16px;
 						font-weight: 700;
 						color: 	#fff;
 						text-decoration: none;
-						text-transform: 	uppercase;	
+						&:before{
+    					content:"";
+	    				width: 10px;
+		    			height: 10px;
+		    			border: 1px solid #fff;
+		    			border-radius: 50%;
+	    				display: inline-block;
+	    				left: -20px;
+	    				top: 16px;	
+	    				transition: 1s;
+	    				margin: 0px 25px;
+    				}
+    				&:hover{
+    					color: #093b73;
+    					transition: 1s;
+    					 &:before{
+								background-color: 	#093b73;
+								transition: 1s;
+    					 }
+    				}	
     				}
     			}
     		}

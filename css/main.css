@@ -766,7 +766,7 @@ header {
       -ms-flex-align: center;
           align-items: center; }
   .wrapp-all-produkt .desckriptions-produkt {
-    padding: 40px 30px;
+    padding: 40px 70px 70px 30px;
     width: 51%;
     position: relative;
     right: -10px;
@@ -774,54 +774,84 @@ header {
     .wrapp-all-produkt .desckriptions-produkt .wrapp-img-tektronik img {
       width: 170px;
       padding-bottom: 20px;
-      border-bottom: 3px solid #216ba2; }
+      border-bottom: 1px solid #1ee1d1; }
     .wrapp-all-produkt .desckriptions-produkt .wrapp-deskripteons-text p {
-      padding-top: 15px; }
+      text-align: justify;
+      font-size: 12px;
+      font-family: HelveticaNeueCyr8;
+      padding-top: 15px;
+      color: #434242; }
   .wrapp-all-produkt .cetegori-produkt {
-    padding: 20px;
+    padding: 35px 15px;
     width: 50%;
-    background-color: #16e84d; }
-    .wrapp-all-produkt .cetegori-produkt .activ_produckt_tektronix:before {
-      content: "";
-      background-color: #000; }
-    .wrapp-all-produkt .cetegori-produkt h2 {
-      font-size: 24px;
-      text-transform: uppercase;
-      text-align: center;
-      margin: 0px;
-      padding-bottom: 20px;
-      color: #fff; }
-    .wrapp-all-produkt .cetegori-produkt nav ul li {
-      list-style-type: none;
-      padding: 10px 0px;
-      position: relative;
-      -webkit-transition: 1s;
-      -o-transition: 1s;
-      transition: 1s; }
-      .wrapp-all-produkt .cetegori-produkt nav ul li:before {
+    background-image: url(../img/fon_desk_menu.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+            background-size: cover;
+    text-align: center; }
+    .wrapp-all-produkt .cetegori-produkt .activ_produckt_tektronix a {
+      color: #093b73; }
+      .wrapp-all-produkt .cetegori-produkt .activ_produckt_tektronix a:before {
         content: "";
-        width: 10px;
-        height: 10px;
-        border: 1px solid;
-        -webkit-border-radius: 50%;
-                border-radius: 50%;
-        position: absolute;
-        left: -20px;
-        top: 16px;
+        border: 1px solid #fff;
+        background-color: #093b73; }
+    .wrapp-all-produkt .cetegori-produkt h2 {
+      display: inline-block;
+      font-size: 20px;
+      font-family: HelveticaNeueCyr8;
+      text-align: center;
+      margin-bottom: 25px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e3e2e1;
+      color: #fff; }
+    .wrapp-all-produkt .cetegori-produkt nav ul {
+      padding: 0px;
+      text-align: left; }
+      .wrapp-all-produkt .cetegori-produkt nav ul li {
+        list-style-type: none;
+        padding: 10px 0px;
+        position: relative;
         -webkit-transition: 1s;
         -o-transition: 1s;
-        transition: 1s; }
-      .wrapp-all-produkt .cetegori-produkt nav ul li:hover:before {
-        background-color: #000;
-        -webkit-transition: 1s;
-        -o-transition: 1s;
-        transition: 1s; }
-      .wrapp-all-produkt .cetegori-produkt nav ul li a {
-        font-size: 16px;
-        font-weight: 700;
-        color: #fff;
-        text-decoration: none;
-        text-transform: uppercase; }
+        transition: 1s;
+        font-size: 19px; }
+        .wrapp-all-produkt .cetegori-produkt nav ul li span {
+          width: 10px;
+          height: 10px;
+          position: relative;
+          -webkit-border-radius: 50%;
+                  border-radius: 50%;
+          border: 1px solid #fff; }
+        .wrapp-all-produkt .cetegori-produkt nav ul li a {
+          font-size: 16px;
+          font-weight: 700;
+          color: #fff;
+          text-decoration: none; }
+          .wrapp-all-produkt .cetegori-produkt nav ul li a:before {
+            content: "";
+            width: 10px;
+            height: 10px;
+            border: 1px solid #fff;
+            -webkit-border-radius: 50%;
+                    border-radius: 50%;
+            display: inline-block;
+            left: -20px;
+            top: 16px;
+            -webkit-transition: 1s;
+            -o-transition: 1s;
+            transition: 1s;
+            margin: 0px 25px; }
+          .wrapp-all-produkt .cetegori-produkt nav ul li a:hover {
+            color: #093b73;
+            -webkit-transition: 1s;
+            -o-transition: 1s;
+            transition: 1s; }
+            .wrapp-all-produkt .cetegori-produkt nav ul li a:hover:before {
+              background-color: #093b73;
+              -webkit-transition: 1s;
+              -o-transition: 1s;
+              transition: 1s; }
 
 /*Конец стили страницы все тектроникс*/
 /*Footer*/
