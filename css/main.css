@@ -118,11 +118,7 @@
 
 body {
   position: relative;
-<<<<<<< HEAD
   min-width: 320px; }
-=======
-  min-width: 380px; }
->>>>>>> 820846fbb661e302137002660e1245597e112cb2
   body .wrapp-mobail-menu {
     position: absolute;
     padding-top: 42px;
@@ -825,14 +821,10 @@ header {
   margin-bottom: 40px; }
 
 .paragraph_about {
-<<<<<<< HEAD
   font-size: 16px;
   font-family: HelveticaNeueCyr8;
   letter-spacing: -1px;
   line-height: 25px; }
-=======
-  font-size: 16px; }
->>>>>>> 820846fbb661e302137002660e1245597e112cb2
 
 .paragraph_range {
   font-size: 16px;
