@@ -1,3 +1,52 @@
+@media only (max-width: 415px){
+  .My_Block{
+    margin-bottom: 15px !important;
+  }
+
+
+  .title_lavel_two{
+      font-size:15px;
+      margin-bottom: 5px;
+  }
+  .title_lavel_three{
+    margin-bottom: 20px;
+    font-size: 14px;
+
+  }
+
+  .paragraph_about{
+    font-size: 13px;
+  }
+
+  .img_pribor{
+    margin-bottom: 20px;
+  }
+
+  .paragraph_range{
+    font-size: 14px;
+  }
+
+  .wrapp_charackteristici{
+    margin: 30px 0px 30px 0px !important;
+  }
+
+  .wrapp_button{
+    padding-bottom: 40px !important;
+    a{
+      padding: 10px 15px 10px 25px !important;
+      font-size: 14px !important;
+      img{
+        margin-left: 15px !important;
+      }
+    }
+  }
+}
+
+
+
+
+
+
 @media only (max-width: 480px){
     /*footer*/
 footer{
@@ -157,7 +206,7 @@ footer{
    .wrapp-privu{
     .privu{
       p{
-        width: 400px;
+        width: 495px;
       }
     }
   }
@@ -233,6 +282,29 @@ footer{
       }
      
 }
+
+@media only (max-width: 765px){
+
+    .title_lavel_three{
+      text-align: center;
+    }  
+
+    .wrapp_img_end_text{
+      flex-direction: column;
+    }
+
+    .img_pribor{
+      margin-bottom: 40px;
+      max-width: 100%;
+      height: auto;
+    }
+
+
+
+}
+
+
+
 @media only (max-width: 800px){
    .global-wrap-slaider{
     display: flex;
