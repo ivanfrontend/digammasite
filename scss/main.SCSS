@@ -841,10 +841,10 @@ margin: 0 auto 17px;
 
 .My_Block{
 	background-color: white;
-	padding: 0px 60px;
-	margin-bottom: 70px;
+	padding: 75px 60px 60px 60px;
+	margin-bottom: 50px;
 	.wrapp_button{
-		padding-bottom: 70px;
+		padding-bottom: 0px;
 		text-align: right;
 		a{
 			/*background-color: #216ba2;
@@ -859,7 +859,7 @@ margin: 0 auto 17px;
     outline: none;
     border: 1px solid #fff;
     border-radius: 15px;
-    padding: 16px 20px 16px 35px;
+    padding: 10px 20px 10px 35px;
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
@@ -876,16 +876,37 @@ margin: 0 auto 17px;
 }
 
 .wrapp_charackteristici{
-	margin: 30px 0px 46px 0px;
+		display: inline-block;
 	}
 
 .title_lavel_two{
 	text-align: center;
 	font-size: 25px;
-	margin-bottom:40px;
-	margin-top: 30px;
+	margin-bottom:15px;
+	margin-top: 0px;
 	font-weight: 500;
 	font-family: HelveticaNeueCyr8;
+	.line{
+		width: 80px;
+		background: #00aeef;
+		border: 1px solid #00aeef;
+		margin-bottom: 20px;
+
+	}
+}
+/*.lain{
+	text-align: center;
+	span{
+		width: 80px;
+		height: 1px;
+		background: #00aeef;
+	}
+}*/
+
+.wrapp_charackteristici_boss{
+	width: 50%;
+	text-align: center;
+	margin: 0px;
 }
 
 .flexbox{
@@ -900,7 +921,8 @@ margin: 0 auto 17px;
 
 .title_lavel_three{
 	font-weight: 600;
-	margin-bottom: 40px;
+	margin: 0px 0px 20px 0px;
+	font-size: 20px;
 }
 .paragraph_about{
 	font-size: 16px;
@@ -910,6 +932,7 @@ margin: 0 auto 17px;
 }
 
 .paragraph_range{
+	text-align: left;
 	font-size: 16px;
 	font-weight: 700;
 	color: #060c4a;
@@ -930,7 +953,13 @@ margin: 0 auto 17px;
 
 /*стили страницы все тектроникс*/
 
-
+.my_center{
+	text-align: center;
+}
+.img_pribor{
+	position: relative;
+	top: -40px;
+}
 .wrapp-vlojenost-tektronix{
 	background-color: $bgsectionpartners;
 }

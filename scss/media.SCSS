@@ -10,9 +10,12 @@
   }
   .title_lavel_three{
     margin-bottom: 20px;
-    font-size: 14px;
+    font-size: 18px;
 
   }
+  .My_Block {
+    padding: 40px 10px 40px 10px !important;
+}
 
   .paragraph_about{
     font-size: 13px;
@@ -31,7 +34,7 @@
   }
 
   .wrapp_button{
-    padding-bottom: 40px !important;
+    /*padding-bottom: 40px !important;*/
     a{
       padding: 10px 15px 10px 25px !important;
       font-size: 14px !important;
@@ -216,6 +219,20 @@ footer{
 }
 
 @media only (max-width: 750px){
+  .img_pribor {
+    position: relative;
+    top: 0px;
+}
+.wrapp_charackteristici_boss{
+  width: 100%;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.My_Block{
+  padding: 75px 10px 60px 10px;
+}
+
+
   /*footer*/
 footer{
   transition: .5s;
