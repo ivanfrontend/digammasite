@@ -4,14 +4,15 @@ $bgbtnserch: #17485a;
 $hovercolormenu: #5fb2cb;
 $btnheader: #26738f;
 $bgpodmenu: #141a27;
-$bgbtnprivu: #216ba2;
-$bgbtnprivuhover: #166274;
+$bgbtnprivu: #166274;
+$bgbtnprivuhover: #216ba2;
 $bgsectionpartners: #f0f0f0;
 $bgsectionpartnerstitle: #8f8989;
 $bgfooter:#272c31;
 $footer_button_zakaz: #6c393c !important;
 $colorBottommenu: #697179;
-$button_zakaz: #f04565 !important;
+$button_zakaz: #f04565;
+$line_color: #a0daf0;
 
 /*Шрифты*/
 $HelveticaNeueCyr1: HelveticaNeueCyr1;
@@ -26,6 +27,35 @@ $HelveticaNeueCyr7: HelveticaNeueCyr7;
 
 $HelveticaNeueCyr11: HelveticaNeueCyr11;
 /*Конец шрафтов*/
+
+/*Кнопка которую можно использовать*/
+.wrapp_Send_an_application{
+	text-align: right;
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 0px;
+	a{
+		background-color: #216ba2;
+		color: #fff;
+		padding: 15px 23px 15px 26px;
+		margin: 15px 0px;
+		text-decoration: none;
+		font-size: 20px;
+		font-family: HelveticaNeueCyr8;
+		border-radius: 30px;
+		    transition: .5s;
+		&:hover{
+			background-color:#166274;
+			    transition: .5s;
+		}
+		span{
+			img{
+				padding-left: 17px;
+			}
+		}
+	}
+}
+/*конец*/
 
 /*начало прилоадер*/
 .preloader{
@@ -115,11 +145,17 @@ span{
 .wrapp-menu-destop{
 	.button_zakaz{
 	color: $button_zakaz;
+	&:hover{
+		color:#33d4fa;
+	}
 }
 }
 .wrapp_button_zakaz{
 	.button_zakaz{
 	color: $button_zakaz;
+	&:hover{
+		color:#33d4fa;
+	}
 }
 }
 
@@ -131,6 +167,7 @@ span{
     transition: .5s;
     &:hover{
     	text-decoration: none;
+    	
     }
     &:focus{
     	text-decoration: none;
@@ -302,7 +339,7 @@ header{
     	}
     }
     .wrapp-menu-destop{
-    	text-align: center;
+    	text-align: left;
     	nav{
     		display: inline-block;
     		ul{
@@ -642,14 +679,14 @@ header{
 			    outline: none;
 			    border: 1px solid #fff;
 			    border-radius: 30px;
-			    padding: 16px 22px;
+			    padding: 9px 12px 9px 10px;
 			    transition: .5s;
 			    &:hover{
 			    	transition: .5s;
 			    	background-color : $bgbtnprivuhover;
 			    }
 			    span{
-			    	padding-left: 9px;
+			    	padding-left: 7px;
 			    }
 			}
 		}
@@ -1078,9 +1115,645 @@ margin: 0 auto 17px;
 }
 /*Конец стили страницы все тектроникс*/
 
+/*страница продукта*/
+
+.chet{
+	background-color: #e2f5fd;
+}
+
+.my_prioritet{
+	.ul_product_page{
+	padding: 30px 15px 50px 15px;
+}
+}
+
+.wrapp_product_body{
+	background-color: #f0f0f0;
+	.bg_big_contener{
+		/*padding: 0px 60px;*/
+		background-color: #fff;
+		.wrapp_title_page{
+			padding: 35px 0px 0px 0px;
+			.text_title_page{
+				text-align: center;
+			    font-size: 30px;
+			    margin-bottom: 70px;
+			    margin-top: 0px;
+			    font-weight: 500;
+			    font-family: HelveticaNeueCyr8;
+			}
+		}
+		.wrapp_title_page_geria{
+			p{
+				text-align: center;
+				font-size: 20px;
+				font-weight: 600;
+				font-family: HelveticaNeueCyr8;
+				padding: 0px;
+				margin: 0px;
+			}
+		}
+	}
+	.wrapp_img_product{
+		text-align: right;
+	}
+	.wrapp_big_desk_project{
+		text-align: center;
+	.wrapp_desk_project{
+		display: inline-block;
+		max-width: 412px;
+		p{
+			text-align: left;
+			font-size: 16px;
+			font-weight: 500;
+			font-family: HelveticaNeueCyr8;
+		}
+	}
+}
+}
+.wrapp_flex_block{
+	display: flex;
+	padding-top: 37px;
+	align-items: center;
+	.wrapp_img{
+		flex: 4;
+		text-align: right;
+		img{
+			max-width: 100%;
+			position: relative;
+		}
+	}
+	.wrapp_description{
+		flex: 5;
+		text-align: center;
+		.wrapp_product_p{
+			display: inline-block;
+			max-width: 412px;
+			p{
+				text-align: left;
+				font-size: 16px;
+				font-weight: 500;
+				font-family: HelveticaNeueCyr8;
+				margin: 0px;
+			}
+		}
+	}
+}
+
+.wrapp_block_teh{
+	text-align: left;
+	padding-top: 37px;
+	.wrapp_text_teh{
+		display: inline-block;
+		p{
+			text-align: left;
+		    font-size: 16px;
+		    font-weight: 700;
+		    color: #060c4a;
+		    margin: 0px;
+		    font-family: HelveticaNeueCyr8;
+		}
+	}
+}
+
+.wrapp_info_table_har{
+	text-align: center;
+	margin-top: 100px;
+	.wrapp_title_description_text{
+		/*display: inline-block;*/
+		margin:0 auto;
+		width: 90%;
+		.title_deskription_text{
+			font-size: 14px;
+			text-transform: uppercase;
+			font-family: HelveticaNeueCyr8;
+			margin: 0px;
+			font-weight: 100;
+			text-align: left;
+		}
+		.line_text{
+			border-bottom:1px solid $line_color; 
+			width: 80px;
+			text-align: left;
+			margin: 5px 0px 10px 0px ;
+		}
+		.line_text2{
+			border-bottom:1px solid $line_color; 
+			width: 188px;
+			text-align: left;
+			margin: 5px 0px 54px 0px ;
+		}
+		.my_otst2{
+			padding-top: 40px;
+		}
+		.big_wrapp_tabl{
+			    display: flex;
+    			flex-direction: column;
+    			text-align: left;
+    			border: 1px solid #cccccc;
+		.wtapp_table{
+			align-items:center;
+			display: flex;
+			height: 70px;
+			.tabel_name{
+				width: 100%;
+				text-align: left;
+				font-size: 12px;
+				font-weight: 600;
+				padding: 0px 14px 0px 6px;
+				
+			}
+			.tabel_blok{
+				width: 100%;
+				text-align: center;
+				font-size: 16px;
+    			font-weight: 600;
+    			font-family: HelveticaNeueCyr8;
+				/*padding: 27px 0px;*/
+				
+			}
+		}
+	}
+	}
+}
+
+.wrapp_section_name{
+	width: 20%;
+	height: 70px;
+	display: flex;
+    align-items: center;
+    border-right: 1px solid #cccccc;
+}
+
+.wrapp_section_block{
+	width: 40%;
+	height: 70px;
+	display: flex;
+    align-items: center;
+    &:last-child{
+					border-left: 1px solid #cccccc;
+				}
+}
+	.my_border_left{
+	border-left: 1px solid #ccc;
+}
+.my_wrapp_title_desk_zag{
+	margin: 10px 0px 45px 0px;
+		text-align: center;
+}
+.my_wrapp_title_desk_zag_2{
+	margin: 80px 0px 30px 0px;
+	text-align: center;
+
+}
+	.wrapp_title_desk_zag{
+		
+		h6{
+			text-align: center;
+		    font-size: 14px;
+			text-transform: uppercase;
+			font-family: HelveticaNeueCyr8;
+			margin: 0px;
+			font-weight: 100;
+		}
+		div{
+			display: inline-block;
+			width: 32px;
+			border-bottom:1px solid $line_color; 
+			padding-top: 8px;
+			font-family: HelveticaNeueCyr8;
+
+		}
+	}
+	.wrap_teh_top_left{
+		nav{
+			text-align: center;
+			ul{
+				margin: 0px ;
+				padding: 0px;
+				display: inline-block;
+				position: relative;
+    			right: 35px;
+				li{
+					text-align: left;
+					font-size: 12px;
+				    text-transform: uppercase;
+				    font-family: HelveticaNeueCyr8;
+				    margin: 0px;
+				    font-weight: 100;
+				    list-style: none;
+				    &:before{
+				    	content: "•";
+				    	font-size: 16px;
+				    	position: relative;
+    					left: -10px;
+    					color: #0083ff;
+				    	
+				    }
+				}
+			}
+		}
+	}
+	.my_wrap_teh_top_right{
+		nav{
+			/*margin-bottom: 55px;*/
+			text-align: right;
+			ul{
+				width: 90%;
+				right: 0px;
+				li{
+					position: relative;
+					padding-bottom: 10px;
+					&:before{
+				    	content: "•";
+				    	font-size: 16px;
+				    	position: absolute;
+    					left: -20px;
+    					top: -4px;
+    					color: #0083ff;
+				    	
+				    }
+
+				}
+			}
+		}
+	}
+	.my_otst_ot_button{
+		padding-top: 65px;
+	}
+	.my_otst_ot_button_80{
+		padding-bottom: 80px;
+	}
+	.wrapp_next_str{
+		width: 70%;
+		margin: 0 auto;
+		padding: 15px 0px;
+		span{
+			&:last-child{
+				margin-left:17px;
+			}
+			&:first-child{
+				margin-right:17px;
+			}
+		}
+		
+	}
+
+
+/*Конец страницы продукта*/
 
 
 
+/*стили дл страницы о нас*/
+.page_about{
+
+	.distrintion_page_about{
+		font-size: 12px;
+		text-transform: uppercase;
+		display: inline-block;
+		color: #202020;
+		width: 81%;
+	}
+	.wrap_content_text{
+		.wrap_title_page{
+			.line_contact{
+				border-top: 1px solid #4ca3e5;
+    			display: inline-block;
+    			width: 63%;
+			}
+		}
+		} 
+		.wrap_contact_info{
+			.wrap_block_contact_info{
+				width: 75%;
+				.wrap_block_info{
+					.wrap_desc_info{
+						h3{
+							text-align: center;
+						}
+						p{
+							text-transform: uppercase;
+							text-align: center;
+						}
+					}
+				}
+			}
+		}
+}
+
+
+
+/*Конец стилий для страницы о нас*/
+
+
+
+
+
+
+
+
+
+/*Стили для формы обратной связи на странице продуктов*/
+
+.activ_shov_form{
+	display: inline-block !important;
+	opacity: 1 !important;
+	transition: all 2s ease-out 0s !important;
+}
+.wrapp_section_form{
+/*	transition: all 1s ease-out 0s;
+	opacity: 0;*/
+	display: none;
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(240,240,240,.9);
+    z-index: 100000;
+    .wrapp_form_zakaz{
+    	width: 	940px;
+    	background-image: url(../img/fons/fon_page_product.jpg);
+    	background-repeat: no-repeat;
+    	background-position: center center;
+    	background-size: cover;
+    	position: absolute;
+    	z-index: 10000000;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	    display: flex;
+	    .wrapp_clouz{
+	    	position: absolute;
+		    right: 0px;
+		    padding: 0px 10px;
+		    display: inline-block;
+		    font-size: 24px;
+		    background: #216ba2;
+		    color: #fff;
+		    top: 0px;
+		    cursor: pointer;
+	    }
+	    .wrapp_blue_bg_text{
+	    		font-family: HelveticaNeueCyr15;
+	    		font-size: 	25.5px;
+	    		color: 	#fff;
+	    		text-align: center;
+			    flex: 2.52;
+			    background-color: rgba(33,107,162,.9);
+			    padding-top: 90px;
+			    padding-bottom: 15px;
+			    .title_text{
+
+			    }
+			    .my_line{
+					width: 105px;
+					margin: 0 auto;
+					border-bottom: 1px solid #7aa6c7;
+			    }
+
+	    }
+	    .wrapp_input_form{
+	    	text-align: center;	
+	    	font-family: HelveticaNeueCyr8;
+		    padding: 180px 20px 20px 20px;
+		    flex: 3.5;
+		    background-color: rgba(255,255,255,.9);
+		    .wrapp_form_produkt{
+		    	display: inline-block;
+		    	width: 90%;
+		    	position: relative;
+		    	.wrapp_form_name{
+		    		    text-align: right;
+    					padding-right: 10px;
+    					margin: 12px 0px;
+		    		div{
+		    			position: absolute;
+		    			left: 0px;
+		    			top: 12px;
+						font-size: 22px;
+						font-family: HelveticaNeueCyr15;
+		    		}
+		    		input{
+		    			display: inline-block;
+		    			width: 320px;
+		    			padding: 5px 7px;
+		    			border: 1px solid #ccc;
+		    			outline: none;
+		    			font-family: HelveticaNeueCyr8;
+		    		}
+		    		textarea{
+		    			margin-top: 12px;
+		    			display: inline-block;
+		    			width: 320px;
+		    			height: 150px;
+		    			padding: 5px 7px;
+		    			border: 1px solid #ccc;
+		    			outline: none;
+		    			font-family: HelveticaNeueCyr8;
+		    		}
+		    	}
+		    }
+		    .wrapp_form_produkt_btn{
+		    	margin-top: 33px;
+		    	margin-bottom: 35px;
+		    }
+	    }
+    }
+}
+
+@media (max-width: 1000px) {
+      .wrapp_form_zakaz{
+        width: 90% !important;
+        .wrapp_blue_bg_text{
+          padding-top:20px !important;
+        }
+        .wrapp_input_form{
+          padding: 20px 20px 20px 20px !important;
+        }
+        .wrapp_form_produkt_btn{
+        	margin: 0px !important;
+        }
+      }
+      .wrapp_section_form{
+      	.wrapp_form_zakaz{
+      		.wrapp_input_form{
+      			 .wrapp_form_produkt{
+      			 	.wrapp_form_name{
+      			 		text-align: center;	
+      			 		display: inline-block;	
+      			 		margin: 4px 0px;
+      			 		div{
+      			 			text-align: left;	
+      			 			position: relative;
+      			 			top: 0px;
+      			 			left: 0px;
+      			 		}
+      			 		textarea{
+      			 			margin-top: 4px;
+      			 		}
+      			 		} 
+      			 	} 
+      			}
+      		} 
+      	} 
+
+    }
+    @media (max-width: 1000px) {
+    	.wrapp_form_name {
+    		display: block !important;
+    		input{
+    			width: 100% !important;
+    		}
+    		textarea{
+    			width: 100% !important;
+    		}
+    		
+    	}
+    }
+    @media (max-width: 656px) {
+		.wrapp_section_form{
+			.wrapp_form_zakaz{
+				flex-direction: column;
+			}
+			} 
+    }
+    @media (max-width: 740px) {
+		.wrapp_form_zakaz{
+        width: 90% !important;
+        .wrapp_blue_bg_text{
+          padding-top:30px ;
+        }
+        .wrapp_input_form{
+          padding: 50px 20px 20px 20px ;
+        }
+        .wrapp_form_produkt_btn{
+        	margin: 0px !important;
+        	.wrapp_Send_an_application{
+        		    position: relative;
+    				bottom: -30px;
+        	}
+        }
+      }
+      .wrapp_section_form{
+      	.wrapp_form_zakaz{
+      		.wrapp_input_form{
+      			 .wrapp_form_produkt{
+      			 	.wrapp_form_name{
+      			 		text-align: center;	
+      			 		display: inline-block;	
+      			 		margin: 4px 0px;
+      			 		div{
+      			 			text-align: left;	
+      			 			position: relative;
+      			 			top: 0px;
+      			 			left: 0px;
+      			 		}
+      			 		textarea{
+      			 			margin-top: 4px;
+      			 		}
+      			 		} 
+      			 	} 
+      			}
+      		} 
+      	} 		
+    }
+
+/*Конец стилей для формы обратной связи на стронице продукта*/
+
+
+
+/*Стили для страницы контакты*/
+
+.my_margin_contact{
+	padding-bottom: 66px;
+	background-color: #f0f0f0;
+}
+
+.wrapp_content_page_contact{
+	padding: 36px 0px 85px 0px;
+	background-color: #f0f0f0;
+}
+.bg_fon_fff{
+	background-color: #fff;
+}
+.wrap_content_text{
+	padding: 70px 0px 130px 0px;
+	.wrap_title_page{
+		padding-bottom: 77px;
+		text-align: center;
+		h1{
+		color: #202020;
+		text-align: center;
+		font-size: 16px;
+		text-transform: uppercase;
+		font-family: HelveticaNeueCyr8;
+    	margin: 0px;
+    	padding-bottom: 40px;
+		}
+		.line_contact{
+			border-top: 1px solid #d8edc6;
+			display: inline-block;
+			width: 53%;
+		}
+	}
+}
+
+.wrap_contact_info{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	.wrap_block_contact_info{
+		width: 	60%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		.wrap_block_info{
+			text-align: center;
+			/*width: 25%;*/
+			text-align: center;	
+			&:first-child{
+				text-align: left;
+			}
+			.wrap_image_info{
+				margin-bottom: 17px;
+				div{
+					display: inline-block;
+					width: 75px;
+					height: 75px;
+					border-radius: 50%;
+					border: 1px solid #d5fcff; 
+				img{
+					padding: 16px;
+				}
+				
+			}
+			&:first-child{
+				text-align: center;
+			}
+			}
+			.wrap_desc_info{
+				display: inline-block;
+    			text-align: left;
+				h3{
+					margin: 0px;
+					font-size: 	14px;
+					color: 	#202020;
+					font-family: HelveticaNeueCyr8;
+					padding-bottom: 9px;
+					text-align: center;
+				}
+				p{
+					font-size: 	12px;
+					font-family: HelveticaNeueCyr1;
+					color: #0d0d0d;
+
+				}
+			}
+		}
+	}
+}
+
+
+/*Конец стилей для страницы контакты*/
 
 
 /*Footer*/
@@ -1171,3 +1844,195 @@ footer{
 	}
 }
 /*END Footer*/
+
+
+
+/*Стили для страницы сделать заказ*/
+
+.wrapp_block_order{
+	padding: 70px 0px 90px 0px;
+	.wrap_block_name_page{
+		text-align: center;
+		margin-bottom: 	60px;
+		h1{
+			color: #202020;
+		    text-align: center;
+		    font-size: 16px;
+		    text-transform: uppercase;
+		    font-family: HelveticaNeueCyr8;
+		    margin: 0px;
+		    padding-bottom: 30px;
+		}
+		.line_page{
+			border-top: 1px solid #4ca3e5;
+    		display: inline-block;
+    		width: 63%;
+		}
+	}
+	.wrpa_3_block_flex{
+		display: flex;
+		justify-content: space-around;
+		    flex-wrap: wrap;
+		.wrap_section_block{
+			border: 1px solid #4ca3e5;
+			border-radius: 30px;
+			width: 27%;
+			overflow: hidden;
+			a{
+				display: inline-block;
+				padding: 55px 0px 6px 0px;
+				width: 100%;
+				text-align: center;
+				text-decoration: none;
+				height: 100%;
+				    transition: .5s;
+				&:hover{
+					background-color:#023459;
+					    transition: .5s;
+				}
+				&:hover{
+					h3{
+						color: #fff;
+						transition: .5s;
+					}
+				}
+				img{
+					max-width: 100%;
+					margin-bottom: 30px;
+				}
+				h3{
+					margin: 0px;
+					font-family: HelveticaNeueCyr8;
+					color: #202020;
+					font-size: 16px;
+    				text-transform: uppercase;
+				}
+			}
+		}
+	}
+	.phone_center{
+		text-align: center;
+		margin-top: 109px;
+		a{
+			margin: 0px;
+			font-family: HelveticaNeueCyr8;
+			color: #202020;
+			font-size: 18px;
+    		text-transform: uppercase;
+    		text-decoration: none;
+		}
+	}
+}
+.my_padding_top_40{
+	padding-top: 40px;
+}
+
+/*конец*/
+
+/*стили для страницы обратной связи*/
+.wrapp_content_page_contact_2{
+	padding: 45px 0px;
+    background-color: #f0f0f0;
+}
+
+.none_padding{
+	padding: 0px !important;
+}
+
+.warpp_section_form{
+	padding: 0px 60px;
+	display: flex;
+	flex-wrap: wrap;
+	.wrap_block_page_form{
+		width: 50%;
+		p{
+			font-size: 14px;
+			padding: 0px 10px 0px 24px;
+			margin-bottom: 87px;
+		}
+		.wrap_img_page_form{
+			img{
+				max-width: 100%;
+			}
+		}
+	}
+}
+.text_center{
+	text-align: center;
+
+}
+.width_100{
+	width: 100%;
+	margin-top: 56px;
+}
+.wrapp_form{
+	display: inline-block;
+	.wrap_form_title{
+		display: flex;
+    	flex-wrap: wrap;
+    	margin-bottom: 18px;
+		.wrap_text_form{
+			display: inline-block;
+			flex: 1;
+			text-align: left;
+			margin-right: 8px;
+			font-size: 18px;
+		    color: #3f3f3f;
+		    position: relative;
+    		top: -3px;
+		}
+		.wrap_input_form{
+			display: inline-block;
+			flex: 2;
+			input{
+				width: 260px;
+				border: 1px solid #cccccc;
+					outline: none;
+					padding: 5px 10px;
+				
+			}
+			textarea{
+				width: 260px;
+				height: 120px;
+				border: 1px solid #cccccc;
+				outline: none;
+				padding: 5px 10px;
+			}
+		}
+	}
+		
+}
+/*.wrapp_form{
+	text-align: center;
+	.wrap_form_title{
+		text-align: right;
+		position: relative;
+		margin-bottom: 18px;
+		display: block;
+		.wrap_text_form{
+			display: inline-block;
+			span{
+			display: inline-block;
+			position: absolute;
+		    left: 0px;
+		    top: 0px;
+		    font-size: 18px;
+		    font-family: HelveticaNeueCyr15;
+			}
+		}
+		.wrap_input_form{
+			display: inline-block;
+			input{
+				width: 260px;
+			}
+			textarea{
+				width: 260px;
+				height: 120px;
+			}
+		}
+			
+	}
+	
+
+}*/
+/*конец*/

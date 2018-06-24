@@ -94,4 +94,68 @@ function image_loaded(){
 var heit = jQuery('header').height();
 jQuery('.header-wrapp').css({"height":heit});
 
+
+// страница описание продукта
+
+widthBody = $('body').width();
+if(widthBody > 978){
+    var heit = jQuery('.wrapp_block_teh').height();
+heit = heit+37+'px';
+jQuery('.wrapp_img img').css({"top":'-'+heit});
+console.log(heit);
+}else{
+   jQuery('.wrapp_img img').css({"top":'0px'}); 
+}
+
+
+
+// конец
+
 // Конец прилоадера
+
+// таблица продукта
+
+(function () {
+
+var li = $('.wtapp_table');
+  
+  for (var i=li.length; i--;) {
+     if(i & 1){
+         // var p2 = p[p.length - 1];
+        li[i].className = ' nechet wtapp_table ';
+     }else{
+
+         li[i].className = ' chet wtapp_table';   
+  }
+
+     }
+
+})();
+
+
+$('.wrapp_Send_an_application a').on('click', function(event){
+    event.preventDefault();
+    $('.wrapp_section_form').fadeIn("slow");
+
+    $('.wrapp_clouz').on('click', function(){
+    $('.wrapp_section_form').fadeOut("slow");
+});
+
+
+
+});
+var widthBody;
+
+     widthBody = $('body').width();
+
+           //      if (widthBody < '1000'){
+           // $('.wrapp_blue_bg_text').css("paddingTop", "30px");
+           // $('.wrapp_input_form').css("paddingTop", "50px 20px 20px 20px");
+           //  }
+
+           //       if (widthBody < '656'){
+           // $('.wrapp_blue_bg_text').css("paddingTop", "15px");
+           //  $('.wrapp_input_form').css("padding", "20px");
+           //  }
+
+// конец
